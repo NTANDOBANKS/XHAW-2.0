@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowering the Nation - Booking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f0f0f0;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        button {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #333;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Course Booking</h1>
+    </header>
+
+    <div id="Navigation Section">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </nav>
+      </div>
+
+    <div class="container">
+        <h2>Select Your Courses</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Price (R)</th>
+                    <th>Select</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>First Aid</td>
+                    <td>1500</td>
+                    <td><input type="checkbox" name="course" value="First Aid"></td>
+                </tr>
+                <tr>
+                    <td>Sewing</td>
+                    <td>1500</td>
+                    <td><input type="checkbox" name="course" value="Sewing"></td>
+                </tr>
+                <tr>
+                    <td>Landscaping</td>
+                    <td>1500</td>
+                    <td><input type="checkbox" name="course" value="Landscaping"></td>
+                </tr>
+                <tr>
+                    <td>Life Skills</td>
+                    <td>1500</td>
+                    <td><input type="checkbox" name="course" value="Life Skills"></td>
+                </tr>
+                <tr>
+                    <td>Child Minding</td>
+                    <td>750</td>
+                    <td><input type="checkbox" name="course" value="Child Minding"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button type="submit">Book Now</button>
+    </div>
+
+    <footer>
+        <p>Empowering The Nation ,Empowering The Nation</p>
+    </footer>
+</body>
+</html>
+
